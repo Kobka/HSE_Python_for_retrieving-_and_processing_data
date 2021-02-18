@@ -1,0 +1,13 @@
+lengthRoom = int(input())
+widthRoom = int(input())
+highRoom = int(input())
+lengthRoll = int(input())
+areaWallRoom = (lengthRoom * highRoom + widthRoom * highRoom) * 2
+print((areaWallRoom + (lengthRoll - 1)) // lengthRoll)
+# Вася делает ремонт в комнате размером A на B метров с высотой
+# стен C метров и хочет оклеить стены обоями.
+# Обои продаются в рулонах шириной 1 метр и длиной D метров.
+# Какое минимальное количество рулонов необходимо купить Васе,
+# чтобы обоев хватило на покрытие всей площади стен комнаты?
+#
+# Целые числа A, B, C и D задаются по одному в строке
